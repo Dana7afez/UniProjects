@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Current Sessions
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <a href="learnerHome.html"><img src="images/webLogo1.png" alt="logo"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="learnerHome.html">Home</a></li>
+                        <li><a href="learnerReq.html">Requests</a></li>
+                        <li><a href="learnerSessions.html">Sessions</a></li>
+                        <li><a href="learnerTutors.html">Tutors</a></li>
+                    </ul>
+                </div>
+                <div class="user-profile">
+                    <div class="menutoggle">
+                        <img class="img2" src="images/ava.jpg" alt="User Profile Picture">
+                        <div class="menu">
+                            <ul class="list">
+                                <li><a href="learnerPM.html">manage profile</a></li>
+                                <li class="hehe"><a href="index.html">Log out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <h1 class="header1">Lanturn</h1>
+        </header>
+        <div class="wraapper-sessions">
+            <h2 class="header4">Current sessions</h2>
+            <div class="header-container">
+                <button class="sqbu" onclick="window.location.href= 'learnerSessions.html';">
+                    All Sessions
+                </button>
+                <button class="sqbu" onclick="window.location.href= 'learnerCurrentSessions.html';">
+                    Current Sessions
+                </button>
+
+                <button class="sqbu" onclick="window.location.href= 'learnerPrevSessions.html';">
+                    Previous Sessions
+                </button>
+            </div>
+
+            <section class="session-card">
+                <h2>Learning Session </h2>
+                <img src="images/Sophia_Anderson.png" alt="Session Partner Photo" class="sqimg">
+                <p> Tutor name : Sophia Anderson</p>
+                <p> Date/Time: April 15, 2024, 8:00AM</p>
+                <p>Duration: 1 hour</p>
+                <button class="sqbu">Learn More</button>
+            </section>
+
+            <section class="session-card">
+                <h2>Learning Session </h2>
+                <img src="images/James.jpg" alt="Session Partner Photo" class="sqimg">
+                <p> Your Language Partner : James Carter</p>
+                <p> Date/Time: June 13, 2024, 9:00AM</p>
+                <p>Duration: 1 hour</p>
+                <button class="sqbu">Learn More</button>
+            </section>
+        </div>
+        <footer>
+            <a href="contact.html">Contact us</a>
+            <p class="copyright">Created by KSU Students!<br>&copy; 2024 Lanturn</p>
+        </footer>
+    </div>
+</body>
+
+</html>

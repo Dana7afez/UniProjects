@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Profile management
+        </title>
+        <link rel = "stylesheet" href = "styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <a href ="learnerHome.html"><img src="images/webLogo1.png" alt="logo"></a>
+                    <div class ="nav-links">
+                        <ul>
+                            <li><a href = "learnerHome.html">Home</a></li>
+                            <li><a href = "learnerReq.html">Requests</a></li>
+                            <li><a href = "learnerSessions.html">Sessions</a></li>
+                            <li><a href = "learnerTutors.html">Tutors</a></li>
+                        </ul>
+                    </div>
+                    <div class="user-profile">
+                        <div class="menutoggle">
+                        <img class="img2" src="images/ava.jpg" alt="User Profile Picture">
+                             <div class="menu">
+                                 <ul class="list">
+                                     <li><a href="learnerPM.html">manage profile</a></li>
+                                     <li class="hehe"><a href="index.html">Log out</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                    </div>
+                </nav>
+                <h1 class="header1">Lanturn</h1>
+            </header>
+          
+            <section>
+                <div class="profile-form">
+                    <h2 class="header3">Profile management</h2>
+                    <label class="bb3">First Name:</label>
+                    <input class="bb3" type="text" name="firstName" placeholder="John">
+                    
+    
+                    <label class="bb3">Last Name:</label>
+                    <input class="bb3" type="text" name="lastName" placeholder="Doe">
+    
+                    <label class="bb3">Email Address:</label>
+                    <input class="bb3" type="email" name="email" required placeholder="name@example.com">
+    
+                    <label class="bb3">Password:</label>
+                    <input class="bb3" type="text" name="password" placeholder="**********" >
+    
+                    <label class="bb3">City:</label>
+                    <input class="bb3" type="text" name="city" placeholder="Riyadh">
+    
+                    <label class="bb3">Location:</label>
+                    <input class="bb3" type="text" name="location" placeholder="Saudi Arabia" >
+                    
+                    <div class="bb3">
+                        <button class="accept">Save Changes</button>
+                    <button class="reject">Delete Account</button>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <label class="label" for="photo">Upload Photo<br>(JPG/PNG, max 5 MB):</label>
+                    <input type="file" id="photo" name="photo" accept=".jpg, .png">
+                    <img id="photoPreview" src="images/icon.png" alt="Photo Preview" class="default-preview">
+                </div>  
+            </section>
+    
+            <footer>
+                <a href = "contact.html">Contact us</a>
+                <p class="copyright">Created by KSU Students!<br>&copy; 2024 Lanturn</p>
+            </footer>
+        </div>
+    </body>
+</html>
