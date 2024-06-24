@@ -9,9 +9,6 @@ for interacting with the list (e.g., adding, searching, and deleting contacts). 
 
 public class Phonebook {
 
-    /**
-     * @param args the command line arguments
-     */
     public static Scanner input = new Scanner (System.in);
     public static LinkedList <Contact> contacts = new LinkedList <Contact>();
     public static LinkedList <Event> events = new LinkedList <Event>();
