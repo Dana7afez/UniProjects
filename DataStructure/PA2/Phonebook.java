@@ -1,19 +1,14 @@
-
 import java.util.Date;
 import java.util.Scanner;
 
 /*
  This class will represent the phonebook application itself. It should have a field for 
 the linked list ADT that stores the contacts and methods for interacting with the list (e.g., adding, 
-searching, and deleting contacts). You will also need to schedule events and appointments with 
-contacts.
+searching, and deleting contacts). You will also need to schedule events and appointments with contacts.
 */
 
 public class Phonebook {
 
-    /**
-     * @param args the command line arguments
-     */
     public static Scanner input = new Scanner (System.in);
     public static BST <String, Contact> contacts = new BST <String, Contact>();
     public static LinkedList <Event> events = new LinkedList <Event>();
