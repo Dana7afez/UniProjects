@@ -1,4 +1,3 @@
-
 import java.util.Date;
 
 /*
@@ -6,9 +5,7 @@ Contact: This class will represent a single contact in the phonebook. It should 
 contact’s name, phone number, email address, address, birthday, and notes. */
 
 /**
- *
- * @author Manal Alhihi
- */
+ 
 public class Contact implements Comparable<Contact> {
     String name;
     String phonenumber;
