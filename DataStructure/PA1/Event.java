@@ -1,16 +1,10 @@
-
 import java.util.Date;
 
 /*
-Event: This class will represent events or appointment that can be scheduled with a contact. It 
-should have fields for the event title, date and time, location, and the contact involved in this 
-event.
+Event: This class will represent events or appointment that can be scheduled with a contact. 
+It should have fields for the event title, date and time, location, and the contact involved in this event.
 */
 
-/**
- *
- * @author Manal Alhihi
- */
 public class Event implements Comparable<Event> {
     String title;
     Date date;
