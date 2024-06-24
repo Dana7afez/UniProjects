@@ -3,11 +3,6 @@
  It should have methods for adding, searching, and deleting contacts from the list.
 **/
 
-/**
- *
- * @author Manal Alhihi
- * @param <T>
- */
 
 public class LinkedList<T extends Comparable<T>> {
     
